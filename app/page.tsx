@@ -13,7 +13,7 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "Nao",
-      "tens acerteza bruninha?",
+      "tens acerteza luu?",
       "vou te bater",
       "nao vou nada",
       "vou ficar triste ;(",
@@ -27,7 +27,7 @@ export default function Page() {
       "nao vamos mais ver saw!!!",
       "pensa denovo",
       "again?...",
-      "anda la bubu",
+      "anda la luaninha :c",
     ];
     return phrases[Math.min(noCount, phrases.length - 1)];
   };
@@ -37,7 +37,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media1.tenor.com/m/j_00kT9g5UkAAAAd/happy-couple-at-the-beach-allie.gif" />
-          <div className="text-4xl font-bold my-4">ya es kinda pedo mas é ok </div>
+          <div className="text-4xl font-bold my-4"> YIPPIEEEEEEEEE </div>
         </>
       ) : (
         <>
@@ -45,7 +45,7 @@ export default function Page() {
             className="h-[200px]"
             src="https://media1.tenor.com/m/02_hWz29FCcAAAAC/fighting-flying.gif"
           />
-          <h1 className="text-4xl my-4">queres vir almoçar comigo amanha? e viver felizes para sempre??</h1>
+          <h1 className="text-4xl my-4">will you be my valentine :3 e viver felizes para sempre??</h1>
           <div>
             <button
               className={`bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-4`}
